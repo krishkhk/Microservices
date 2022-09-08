@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ADMIN-CLIENT-01
+  boot:
+    admin:
+      url: http://localhost:9090/
