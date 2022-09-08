@@ -1,0 +1,30 @@
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+management:
+  context-path: /mgmt
+  security:
+    enabled: true
+security:
+  basic:
+    enabled: false
+  user:
+    name: admin
+    password: admin
+server:
+  port: 8082
+spring:
+  application:
+    name: SERVICE_03
+  boot:
+    admin:
+      client:
+        metadata:
+          user:
+            name: admin
+            password: admin
+      url: http://localhost:9092
+zuul:
+  sensitive-headers: ''
