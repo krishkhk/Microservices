@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: hk21398
-Build-Jdk: 15.0.2
+Build-Jdk: 17.0.6
 Implementation-Title: springboot2-jpa-crud-example
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: net.guides.springboot2
